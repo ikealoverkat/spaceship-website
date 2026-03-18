@@ -1,1 +1,28 @@
 @import "tailwindcss";
+
+@theme {
+    --color-blue-dull: #7AC0E3;
+    --color-blue-bright: #41dcff;
+    --color-pink-dull: #ecaed5;
+    --color-pink-bright: #ff50c4;
+    --color-orange-dark: #ce7b18;
+    --color-orange-bright: #fe9f1a;
+    --color-orange-dull: #ffb82b;
+    --color-yellow-bright: #fff98e;
+    --color-green-bright: #c3fb35;
+    --color-green-dark: #37d510;
+    --color-purple-bright: #d062e8;
+    --color-white-bright: #e7f9fc;
+    --color-navy-bright: #1616a1;
+    --color-navy-dark: #1d1935;
+}
+
+.space_gradient {
+    background-image: linear-gradient(to top, #FDA01D, #dfb5c1 30%, transparent 70%), url('/landing/backgrounds/bg_space.png');
+}
+
+@media (min-width: 1280px) {
+    .space_gradient {
+        background-image: linear-gradient(to top, #dfb5c1, transparent 30%), url('/landing/backgrounds/bg_space.png');
+    }
+}

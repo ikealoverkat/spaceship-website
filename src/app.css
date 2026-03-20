@@ -17,6 +17,33 @@
     --color-navy-dark: #1d1935;
 }
 
+@font-face {
+    font-family: jojoba;
+    src: url('/Jojoba.otf');
+}
+
+@font-face {
+    font-family: interphases;
+    src: url('/Interphases.ttf');
+}
+
+@font-face {
+    font-family: cooperblack;
+    src:url('cooper_black_condensed.otf');
+}
+
+.jojoba {
+    font-family: jojoba;
+}
+
+.interphases {
+    font-family: interphases;
+}
+
+.cooperblack {
+    font-family: cooperblack;
+}
+
 .space_gradient {
     background-image: linear-gradient(to top, #FDA01D, #dfb5c1 30%, transparent 70%), url('/landing/backgrounds/bg_space.png');
 }
@@ -24,5 +51,14 @@
 @media (min-width: 1280px) {
     .space_gradient {
         background-image: linear-gradient(to top, #dfb5c1, transparent 30%), url('/landing/backgrounds/bg_space.png');
+    }
+}
+
+@keyframes wiggle {
+    from {
+        transform: rotate(-5deg);
+    }
+    to {
+        transform: rotate(5deg);
     }
 }

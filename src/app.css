@@ -12,6 +12,8 @@
     --color-green-bright: #c3fb35;
     --color-green-dark: #37d510;
     --color-purple-bright: #d062e8;
+    --color-purple-mid: #8b61ca;
+    --color-purple-dark: #482e8d;
     --color-white-bright: #e7f9fc;
     --color-navy-bright: #1616a1;
     --color-navy-dark: #1d1935;
@@ -29,7 +31,7 @@
 
 @font-face {
     font-family: cooperblack;
-    src:url('cooper_black_condensed.otf');
+    src: url('cooper_black_condensed.otf');
 }
 
 .jojoba {
@@ -44,6 +46,14 @@
     font-family: cooperblack;
 }
 
+.text-border {
+    text-shadow: 4px 4px 0 white, -4px 4px 0 white, 4px -4px 0 white, -4px -4px 0 white;
+}
+
+.large-text-border {
+    text-shadow: 6px 6px 0 white, -6px 6px 0 white, 6px -6px 0 white, -6px -6px 0 white;
+}
+
 .space_gradient {
     background-image: linear-gradient(to top, #FDA01D, #dfb5c1 30%, transparent 70%), url('/landing/backgrounds/bg_space.png');
 }
@@ -54,10 +64,22 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .text-border {
+        text-shadow: 2px 2px 0 white, -2px 2px 0 white, 2px -2px 0 white, -2px -2px 0 white;
+    }
+
+    .large-text-border {
+        text-shadow: 4px 4px 0 white, -4px 4px 0 white, 4px -4px 0 white, -4px -4px 0 white;
+    }
+}
+
+
 @keyframes wiggle {
     from {
         transform: rotate(-5deg);
     }
+
     to {
         transform: rotate(5deg);
     }

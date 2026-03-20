@@ -30,7 +30,7 @@
                 <input
                     type="submit"
                     value="RSVP!"
-                    class="rounded-4xl bg-amber-500 p-[4vh] m-[2vh] text-4xl jojoba font-extrabold text-navy-bright text-border"
+                    class="rounded-4xl p-[4vh] m-[2vh] text-4xl jojoba font-extrabold text-navy-bright text-border bg-"
                 />
             </div>
         </div>
@@ -125,14 +125,14 @@
         </div>
         <!-- prizes text -->
         <h2
-            class="interphases text-8xl ml-[6vh] mb-[4vh] large-text-border drop-shadow-lg drop-shadow-[#317BD0]/80 text-[#317BD0]"
+            class="interphases text-8xl ml-[6vh] mb-[4vh] large-text-border drop-shadow-lg drop-shadow-[#317BD0]/80 text-[#317BD0] hover:text-[#3562D7] hover:scale-102 duration-300 "
         >
             prizes
         </h2>
         <div class="flex">
             <!-- prizes -->
             <div
-                class="animate-[scroll_20s_linear_infinite] relative left-[-20%] flex flex-row [&>img]:hover:scale-105 [&>img]:opacity-75 [&>img]:duration-200 [&>img]:drop-shadow-white [&>img]:drop-shadow-lg [&>img]:hover:drop-shadow-2xl [&>img]:hover:drop-shadow-white"
+                class="animate-[scroll_20s_linear_alternate_infinite] relative left-[-20%] flex flex-row [&>img]:hover:scale-105 [&>img]:opacity-75 [&>img]:duration-200 [&>img]:drop-shadow-white [&>img]:drop-shadow-lg [&>img]:hover:drop-shadow-2xl [&>img]:hover:drop-shadow-white"
             >
                 <img src="landing/prize_ikeaalien.png" alt="ikea alien prize" />
                 <img src="landing/prize_crunch.png" alt="crunch prize" />
@@ -145,7 +145,7 @@
                 />
             </div>
             <div
-                class="relative left-[50%] animate-[scroll_20s_linear_infinite] flex flex-row [&>img]:hover:scale-105 [&>img]:opacity-75 [&>img]:duration-200 [&>img]:drop-shadow-white [&>img]:drop-shadow-lg [&>img]:hover:drop-shadow-2xl [&>img]:hover:drop-shadow-white"
+                class="relative left-[50%] animate-[scroll_20s_linear_alternate_infinite] flex flex-row [&>img]:hover:scale-105 [&>img]:opacity-75 [&>img]:duration-200 [&>img]:drop-shadow-white [&>img]:drop-shadow-lg [&>img]:hover:drop-shadow-2xl [&>img]:hover:drop-shadow-white"
             >
                 <img src="landing/prize_ikeaalien.png" alt="ikea alien prize" />
                 <img src="landing/prize_crunch.png" alt="crunch prize" />
@@ -164,5 +164,10 @@
     <div
         class="w-full h-[200vh] bg-cover bg-center bg-no-repeat"
         style="background-image: url('/landing/backgrounds/bg_footer.png');"
-    ></div>
+    >
+    <div class="p-[4vh] rounded-4xl outline-pink-dull outline-8 w-[75%] place-self-center hover:outline-pink-bright duration-300 drop-shadow-xl drop-shadow-pink-dull bg-pink-dull/30  hover:drop-shadow-pink-bright hover:drop-shadow-xl hover:p-[5vh]">
+        <h1 class="text-6xl hover:font-bold jojoba text-navy-bright drop-shadow-navy-bright/50 drop-shadow-md text-center">made w/<b class="text-pink-bright">❤︎⁠</b> & <b class="text-yellow-bright">★</b> by kat wang</h1>
+        <h2 class="text-4xl jojoba text-[#317BD0] m-[2vh] text-center drop-shadow-navy-bright/50 drop-shadow-sm"><a href="https://hackclub.com" class="hover:text-[#3562D7] hover:font-bold duration-300 decoration-wavy hover:underline">hack club</a> <b class="text-[#3562D7]">||</b> by teens, for teens</h2>
+    </div>   
+</div>
 </div>

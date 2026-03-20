@@ -27,7 +27,11 @@
                     class="outline-6 rounded-4xl outline-blue-bright hover:bg-blue-bright/25 hover:scale-105 duration-300 drop-shadow-lg bg-blue-bright/15 drop-shadow-blue-bright w-[65vh] m-[3vh] p-[2vh] place-self-center text-center jojoba text-4xl text-blue-bright text-shadow-sm text-shadow-blue-bright hover:drop-shadow-xl hover:drop-shadow-blue-bright"
                     placeholder="enter your email here..."
                 />
-                <input type="submit" value="RSVP!" class="rounded-4xl bg-amber-500 p-[4vh] m-[2vh] text-4xl jojoba font-extrabold text-navy-bright text-border" />
+                <input
+                    type="submit"
+                    value="RSVP!"
+                    class="rounded-4xl bg-amber-500 p-[4vh] m-[2vh] text-4xl jojoba font-extrabold text-navy-bright text-border"
+                />
             </div>
         </div>
     </div>
@@ -83,8 +87,7 @@
         class="w-full h-[200vh] mt-[2vh] lg:mt-[8vh] bg-cover bg-center bg-no-repeat"
         style="background-image: url('/landing/backgrounds/bg_land.png'), linear-gradient(to bottom, #6DE137, #F9A8D4);"
     >
-        
-        <!-- prizes yum -->
+        <!-- planet and text -->
         <div class="gap-[5vh] p-[8vh] place-items-center lg:-mt-[30vh]">
             <div
                 class="flex flex-col lg:gap-[10vh] lg:flex-row-reverse w-fit place-items-center text-center place-content-center lg:m-[4vh]"
@@ -120,13 +123,40 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row [&>img]:hover:scale-105 [&>img]:duration-200 [&>img]:drop-shadow-white [&>img]:drop-shadow-lg [&>img]:hover:drop-shadow-2xl [&>img]:hover:drop-shadow-white">
-            <img src="landing/prize_ikeaalien.png" alt="ikea alien prize"/>
-            <img src="landing/prize_crunch.png" alt="crunch prize"/>
-            <img src="landing/prize_drone.png" alt="drone prize"/>
-            <img src="landing/prize_camera.png" alt="camera prize"/>
-            <img src="landing/prize_tickets.png" alt="tickets prize"/>
-            <img src="landing/prize_vlogcamera.png" alt="vlog camera prize"/>                                                       
+        <!-- prizes text -->
+        <h2
+            class="interphases text-8xl ml-[6vh] mb-[4vh] large-text-border drop-shadow-lg drop-shadow-[#317BD0]/80 text-[#317BD0]"
+        >
+            prizes
+        </h2>
+        <div class="flex">
+            <!-- prizes -->
+            <div
+                class="animate-[scroll_20s_linear_infinite] relative left-[-20%] flex flex-row [&>img]:hover:scale-105 [&>img]:opacity-75 [&>img]:duration-200 [&>img]:drop-shadow-white [&>img]:drop-shadow-lg [&>img]:hover:drop-shadow-2xl [&>img]:hover:drop-shadow-white"
+            >
+                <img src="landing/prize_ikeaalien.png" alt="ikea alien prize" />
+                <img src="landing/prize_crunch.png" alt="crunch prize" />
+                <img src="landing/prize_drone.png" alt="drone prize" />
+                <img src="landing/prize_camera.png" alt="camera prize" />
+                <img src="landing/prize_tickets.png" alt="tickets prize" />
+                <img
+                    src="landing/prize_vlogcamera.png"
+                    alt="vlog camera prize"
+                />
+            </div>
+            <div
+                class="relative left-[50%] animate-[scroll_20s_linear_infinite] flex flex-row [&>img]:hover:scale-105 [&>img]:opacity-75 [&>img]:duration-200 [&>img]:drop-shadow-white [&>img]:drop-shadow-lg [&>img]:hover:drop-shadow-2xl [&>img]:hover:drop-shadow-white"
+            >
+                <img src="landing/prize_ikeaalien.png" alt="ikea alien prize" />
+                <img src="landing/prize_crunch.png" alt="crunch prize" />
+                <img src="landing/prize_drone.png" alt="drone prize" />
+                <img src="landing/prize_camera.png" alt="camera prize" />
+                <img src="landing/prize_tickets.png" alt="tickets prize" />
+                <img
+                    src="landing/prize_vlogcamera.png"
+                    alt="vlog camera prize"
+                />
+            </div>
         </div>
     </div>
 

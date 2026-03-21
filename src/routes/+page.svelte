@@ -3,7 +3,7 @@
 </script>
 
 <!-- body -->
-<div class="relative w-screen overflow-x-hidden duration-300">
+<div class="relative w-screen overflow-x-hidden">
     <!-- space -->
     <div
         class="w-full h-screen bg-cover bg-top bg-no-repeat space_gradient place-items-center justify-center flex flex-col"
@@ -202,7 +202,7 @@
     >
         <!-- the container with words -->
         <div>
-            <h1 class="interphases p-[4vh] text-6xl large-text-border drop-shadow-md drop-shadow-navy-bright/75 text-navy-bright text-center">cool prizes arrow cool projects arrow cool trips!</h1>
+            <h1 class="interphases p-[4vh] text-6xl large-text-border drop-shadow-md drop-shadow-navy-bright/75 text-navy-bright text-center">cool prizes → cool projects → cool trips!</h1>
         </div>
         <!-- pink thing -->
         <div

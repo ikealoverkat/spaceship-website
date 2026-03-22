@@ -63,11 +63,11 @@
                     drop-shadow-white-bright lg:drop-shadow-blue-bright w-[35vh] lg:w-[65vh] m-[3vh] p-[2vh] place-self-center text-center jojoba text-2xl lg:text-4xl lg:text-blue-bright text-shadow-sm text-white-bright lg:text-shadow-blue-bright hover:drop-shadow-xl hover:drop-shadow-blue-bright"
                     placeholder="enter your email here..."
                 />
-                <input
-                    type="submit"
-                    value="            "
-                    class="rounded-4xl p-[15vh] lg:p-[4vh] -m-[10vh] lg:m-[2vh] text-4xl jojoba font-extrabold text-navy-bright text-border bg-[url('landing/icon_rsvp.png')] bg-cover scale-40 lg:scale-130 lg:hover:scale-145 hover:rotate-5 rotate-0 duration-300"
-                />
+                <a href="https://kook.fillout.com/spaceship"><img
+                    src="landing/icon_rsvp.png"
+                    alt="ufo-shaped button that says sign up"
+                    class="w-[20vh] self-center lg:self-auto lg:w-[25vh] m-[3vh] hover:scale-105 duration-300 hover:rotate-5 rotate-0"
+                /></a>
             </div>
         </div>
     </div>

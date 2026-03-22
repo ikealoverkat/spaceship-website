@@ -99,3 +99,12 @@
         scroll-behavior: smooth;
     }
 }
+
+@keyframes bg-scroll {
+    from {
+        transform: translateY(-45%);
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}

@@ -10,7 +10,9 @@
         id="home"
     >
         <!-- nav -->
-        <div class="fixed flex flex-row place-self-end top-0 scale-90 lg:scale-75 z-100">
+        <div
+            class="fixed flex flex-row place-self-end top-0 scale-90 lg:scale-75 z-100"
+        >
             <a href="#home">
                 <img
                     src="landing/icon_home.png"
@@ -23,9 +25,9 @@
                     src="landing/icon_about.png"
                     alt="planet with about text on top that links to about screen"
                     class="duration-300 hover:scale-110"
-                />                
+                />
             </a>
-            <a href="../../src/routes/faq.svelte">
+            <a href="#footer">
                 <img
                     src="landing/icon_faq.png"
                     alt="planet with faq text on top that links to faq page"
@@ -51,13 +53,13 @@
                 class="text-2xl lg:text-5xl text-center jojoba text-white-bright text-shadow-lg text-shadow-white-bright/60 hover:text-shadow-xl hover:text-shadow-white-bright duration-300 hover:scale-101"
             >
                 <b class="underline decoration-white-bright">Learn</b> something
-                technical, get money for a
-                <b class="underline decoration-white-bright">trip!</b>
+                technical, get <b class="text-green-bright font-light text-shadow-green-dark text-shadow-sm hover:text-shadow-green-dark hover:text-shadow-mg">$$$</b> to
+                <b class="underline decoration-white-bright">travel the world!</b>
             </h1>
             <div class="flex flex-col lg:flex-row">
                 <input
                     type="text"
-                    class="outline-6 rounded-4xl outline-white-bright  lg:outline-blue-bright hover:bg-blue-bright/25 hover:scale-105 duration-300 drop-shadow-lg bg-white-bright/15 lg:bg-blue-bright/15 
+                    class="outline-6 rounded-4xl outline-white-bright lg:outline-blue-bright hover:bg-blue-bright/25 hover:scale-105 duration-300 drop-shadow-lg bg-white-bright/15 lg:bg-blue-bright/15
                     drop-shadow-white-bright lg:drop-shadow-blue-bright w-[35vh] lg:w-[65vh] m-[3vh] p-[2vh] place-self-center text-center jojoba text-2xl lg:text-4xl lg:text-blue-bright text-shadow-sm text-white-bright lg:text-shadow-blue-bright hover:drop-shadow-xl hover:drop-shadow-blue-bright"
                     placeholder="enter your email here..."
                 />
@@ -83,10 +85,10 @@
                 visit a new planet! learn something new...
             </h1>
             <div
-                class="flex flex-col lg:gap-[12vh] lg:flex-row w-fit place-items-center text-center place-content-center lg:m-[4vh] "
+                class="flex flex-col lg:gap-[12vh] lg:flex-row w-fit place-items-center text-center place-content-center lg:m-[4vh]"
             >
                 <!-- text -->
-                <div class="w-[40%] md:w-[80%] lg:w-[50%] z-10 ">
+                <div class="w-[40%] md:w-[80%] lg:w-[50%] z-10">
                     <h2
                         class="jojoba text-border drop-shadow-md drop-shadow-navy-bright/40 text-purple-mid text-xl md:text-3xl lg:text-5xl m-[2vh] md:m-[3vh] lg:m-[8vh] text-pretty hover:scale-105 duration-300"
                     >
@@ -127,7 +129,9 @@
                 class="flex flex-col lg:gap-[10vh] lg:flex-row-reverse w-fit place-items-center text-center place-content-center lg:m-[4vh]"
             >
                 <!-- text -->
-                <div class="w-[40%] md:w-[80%] lg:w-[40%] mt-[40vh] md:-mt-[20vh] lg:mt-0">
+                <div
+                    class="w-[40%] md:w-[80%] lg:w-[40%] mt-[40vh] md:-mt-[20vh] lg:mt-0"
+                >
                     <h2
                         class="relative screen z-10 jojoba text-border drop-shadow-md drop-shadow-navy-bright/40 text-navy-bright/65 text-xl md:text-3xl lg:text-5xl md:m-[3vh] lg:m-[8vh] text-pretty hover:scale-105 duration-300"
                     >
@@ -157,16 +161,15 @@
                 </div>
             </div>
         </div>
-        <!-- prizes text -->
-        <h2
-            class="interphases text-8xl ml-[6vh] mb-[4vh] large-text-border drop-shadow-lg drop-shadow-[#317BD0]/80 text-[#317BD0] hover:text-[#3562D7] hover:scale-102 place-self-start duration-300"
-        >
-            prizes
-        </h2>
-        <div class="flex">
-            <!-- prizes -->
+        <!-- prizes -->
+        <div>
+            <h2
+                class="interphases text-5xl md:text-8xl ml-[6vh] mb-[4vh] large-text-border drop-shadow-lg drop-shadow-[#317BD0]/80 text-[#317BD0] hover:text-[#3562D7] hover:scale-102 place-self-start duration-300"
+            >
+                prizes
+            </h2>
             <div
-                class="lg:animate-[scroll_20s_linear_alternate_infinite] md:animate-[scroll_6s_linear_alternate_infinite] relative left-[-20%] flex flex-row [&>img]:hover:scale-105 [&>img]:opacity-75 [&>img]:duration-200 [&>img]:drop-shadow-white [&>img]:drop-shadow-lg [&>img]:hover:drop-shadow-2xl [&>img]:hover:drop-shadow-white"
+                class="flex flex-row h-[25vh] lg:h-[35vh] animate-[scroll_20s_linear_alternate_infinite] [&>img]:hover:scale-105 [&>img]:opacity-75 [&>img]:duration-200 [&>img]:drop-shadow-white [&>img]:drop-shadow-lg [&>img]:hover:drop-shadow-2xl [&>img]:hover:drop-shadow-white [&>img]:max-h-full [&>img]:object-contain min-w-0"
             >
                 <img src="landing/prize_ikeaalien.png" alt="ikea alien prize" />
                 <img src="landing/prize_crunch.png" alt="crunch prize" />
@@ -177,10 +180,7 @@
                     src="landing/prize_vlogcamera.png"
                     alt="vlog camera prize"
                 />
-            </div>
-            <div
-                class="relative left-[50%] animate-[scroll_20s_linear_alternate_infinite] flex flex-row [&>img]:hover:scale-105 [&>img]:opacity-75 [&>img]:duration-200 [&>img]:drop-shadow-white [&>img]:drop-shadow-lg [&>img]:hover:drop-shadow-2xl [&>img]:hover:drop-shadow-white"
-            >
+                <!-- duplicate for seamless loop -->
                 <img src="landing/prize_ikeaalien.png" alt="ikea alien prize" />
                 <img src="landing/prize_crunch.png" alt="crunch prize" />
                 <img src="landing/prize_drone.png" alt="drone prize" />
@@ -192,30 +192,77 @@
                 />
             </div>
         </div>
-        <h3 class="interphases text-5xl text-border text-[#317BD0] hover:text-[#3562D7] w-fit hover:scale-104 duration-300 drop-shadow-md drop-shadow-navy-bright/75 place-self-end m-[8vh]">+ more!</h3>
     </div>
 
     <!-- footer -->
     <div
-        class="w-full h-[200vh] bg-cover bg-center bg-no-repeat"
+        class="block w-full bg-cover bg-center bg-no-repeat p-[2vh]"
         style="background-image: url('/landing/backgrounds/bg_footer.png');"
+        id="footer"
     >
         <!-- the container with words -->
         <div>
-            <h1 class="interphases p-[4vh] text-6xl large-text-border drop-shadow-md drop-shadow-navy-bright/75 text-navy-bright text-center">cool prizes → cool projects → cool trips!</h1>
+            <h1
+                class="interphases p-[8vh] text-4xl md:text-7xl large-text-border drop-shadow-md drop-shadow-navy-bright/75 text-navy-bright text-center duration-300 hover:scale-102"
+            >
+                cool prizes → cool projects → cool trips!
+            </h1>
+            <!-- go -->
+            <div
+                class="flex flex-col lg:flex-row place-items-center place-self-center gap-[2vh] lg:gap-[4vh] mb-[4vh]"
+            >
+                <h3
+                    class="text-center interphases text-4xl md:text-5xl text-[#317BD0] hover:text-[#3562D7] text-border drop-shadow-sm drop-shadow-navy-bright duration-300 hover:scale-102"
+                >
+                    okay, take me to my spaceship! <b
+                        class="hidden lg:inline text-shadow-none text-pink-bright hover:text-pink-dull duration-300"
+                        >→</b
+                    >
+                </h3>
+                <a href="#home"
+                    ><img
+                        src="landing/footer_icon_go.png"
+                        alt="ufo-shaped button that links to sign up"
+                        class="w-[15vh] duration-500 hover:scale-115 hover:-rotate-5 rotate-0"
+                    /></a
+                >
+            </div>
+            <!-- faq -->
+            <div
+                class="flex flex-col lg:flex-row place-items-center place-self-center gap-[2vh] lg:gap-[4vh] mb-[4vh]"
+            >
+                <h3
+                    class="text-center interphases text-4xl md:text-5xl text-[#317BD0] hover:text-[#3562D7] text-border drop-shadow-sm drop-shadow-navy-bright duration-300 hover:scale-102"
+                >
+                    wait... I still have questions! <b
+                        class="hidden lg:inline text-shadow-none text-pink-bright hover:text-pink-dull duration-300"
+                        >→</b
+                    >
+                </h3>
+                <a href="/faq"
+                    ><img
+                        src="landing/footer_icon_faq.png"
+                        alt="telescope-shaped button that links to sign up"
+                        class="w-[15vh] duration-300 hover:scale-110 hover:rotate-5 rotate-0"
+                    /></a
+                >
+            </div>
         </div>
+    </div>
+    <!-- pink thing -->
+    <div class="bg-linear-to-b from-pink-dull/25 to-pink-dull/60 p-[6vh]">
         <!-- pink thing -->
         <div
-            class="p-[4vh] m-[6vh] rounded-4xl outline-pink-dull outline-8 w-[75%] place-self-center hover:outline-pink-bright duration-300 drop-shadow-xl drop-shadow-pink-dull bg-pink-dull/30 hover:drop-shadow-pink-bright hover:drop-shadow-xl hover:p-[5vh]"
+            class="p-[4vh] rounded-4xl outline-pink-dull outline-8 w-[75%] place-self-center hover:outline-pink-bright duration-300 drop-shadow-xl drop-shadow-pink-dull bg-pink-dull/30 hover:drop-shadow-pink-bright hover:drop-shadow-xl hover:p-[5vh]"
         >
             <h1
-                class="text-6xl hover:font-bold jojoba text-navy-bright drop-shadow-navy-bright/50 drop-shadow-md text-center"
+                class="text-4xl lg:text-6xl hover:font-bold jojoba text-navy-bright drop-shadow-navy-bright/50 drop-shadow-md text-center"
             >
                 made w/<b class="text-pink-bright">❤︎⁠</b> &
                 <b class="text-yellow-bright">★</b> by kat wang
             </h1>
             <h2
-                class="text-4xl jojoba text-[#317BD0] m-[2vh] text-center drop-shadow-navy-bright/50 drop-shadow-sm"
+                class="text-2xl lg:text-4xl jojoba text-[#317BD0] m-[2vh] text-center drop-shadow-navy-bright/50 drop-shadow-sm"
             >
                 <a
                     href="https://hackclub.com"

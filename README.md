@@ -1,42 +1,30 @@
-# sv
+# spaceship website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+i made this website for hack club's spaceship ysws that is probably not gonna happen because i'm busy. we'll see!
 
-## Creating a project
+it's an RSVP page made in **svelte**!
 
-If you're seeing this, you've probably already done this step. Congrats!
+this is the premise of the YSWS:
 
-```sh
-# create a new project
-npx sv create my-app
-```
+* ur a little alien whose Spaceship crashes (oh no!!!)
+* learn stuff (pick which planet u want to go to: webdev, gamedev or hardware(?) & u can switch at any time)
+* u will randomly get a framework/library/thing to learn & ship a project with in ur planet category (reroll if u already know it: 7 rerolls? or unlimited idk)
+* trade ur shipped projects in for "spaceship parts" (currency, 1 spaceship part/hr)
 
-To recreate this project with the same configuration:
+"fix your spaceship" and go on a trip!!!
 
-```sh
-# recreate this project
-npx sv@0.12.7 create --template minimal --types jsdoc --install npm spaceship-website
-```
+* 35 hrs = $300 to go on a trip
+    * stackable (idk upgrade ur ship)
+    * idk much about trains i will look into it
+    * u can only fly with united official website (prevent fraud)
+* ideas for ur super awesome trip: road trip, plane ticket, day trip w/friends, cruise, concert!! or go to a hackathon :P but theres already jet & gas for that
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### other prizes
 
-```sh
-npm run dev
+**general:** among us (thank u for the idea oolia), crunch plushie, camcorder, digicam, expensive cam, vlog camera, food grant (for ur trip) (doordash only to prevent 
+fraud D:), museum/amusement park/tourist attraction entry grant, souvenir grant, polaroid camera?
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+**webdev planet:** domain (grant), DB grant, UI elements grant, apple developer thing? (maybe for apps made w electron) uhh idk what else
 
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+**gamedev planet:** godot plushie, steam game grant, asset/music/SFX pack grant, steam developer thing
